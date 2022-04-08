@@ -5,7 +5,7 @@ import User from '../../models/User';
 import { cadastroUsuario } from '../../services/Service';
 import './CadastroUsuario.css';
 import { toast } from 'react-toastify';
-import CADASTRAR from "../../assets/img/CADASTRAR.png"
+import CADASTRAR2 from "../../assets/img/CADASTRAR2.png"
 import Compass from "../../assets/img/Compass.png"
 
 function CadastroUsuario() {
@@ -79,27 +79,9 @@ function CadastroUsuario() {
 
     return (
         <>
-            <AppBar position="static" >
-                <Toolbar variant="dense" className='center '
-                    style={{
-                        backgroundColor: "white"
-                    }} >
-
-                    <Box display="flex" justifyContent="start">
-                        <Link to="/login" className="text-decorator-none textosblack" >
-                            <Box mx={1}>
-                                <Typography variant="h6" color="inherit" >
-                                    <img src={Compass} alt="a" />
-                                </Typography>
-                            </Box>
-                        </Link>
-
-                    </Box>
-
-                </Toolbar>
-            </AppBar>
+            
             <Box className='box'>
-                <Grid container direction="row" justifyContent="center" alignItems="center" className='background'>
+                <Grid container direction="row" justifyContent="center" alignItems="center" className='imagemCadastro'>
                     <Grid item xs={5} alignItems="center">
                         <Box paddingX={10} className="form" >
 

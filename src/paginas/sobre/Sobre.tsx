@@ -21,7 +21,7 @@ function Sobre() {
                         </Box>
                     <Box className='direita' >
                     <Link to="/login" className="botao">
-                            <Fab size="small" variant="extended" className='botao textosroxo'>
+                            <Fab size="small" variant="extended" className='textosroxo'>
                                 Entrar
                             </Fab>
                         </Link>

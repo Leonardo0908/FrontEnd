@@ -81,11 +81,14 @@
 .direita {
     display: flex;
     justify-content: flex-end !important;
+    align-items: flex-end;
+    alig
 }
 
 .esquerda {
     display: flex;
     justify-content: flex-start !important;
+    align-items: flex-start;
 }
 
 .textosroxo {
