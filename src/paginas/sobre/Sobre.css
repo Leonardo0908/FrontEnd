@@ -8,8 +8,6 @@
 
 .barra {
     background-color: white;
-    display: flex;
-    justify-content: flex-start
 }
 
 .botao {
@@ -17,7 +15,9 @@
 }
 
 .iconeBussola {
-    justify-content: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto {
@@ -76,4 +76,24 @@
 
 .fundoUrso {
     background-color: #901651;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.textosroxo {
+    color: #901651 !important;
+    font-weight: bold !important;
+}
+
+.textosazuis {
+    color: #3E80A6 !important;
+    font-weight: bold !important;
 }

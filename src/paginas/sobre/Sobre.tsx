@@ -16,17 +16,22 @@ function Sobre() {
             <Grid xs={12}>
                 <AppBar position="static">
                     <Toolbar variant="dense" className="barra">
-                        <img src={icone} alt="" className='iconeBussola'/>
-                        <Link to="/login" className="botao">
-                            <Fab size="small" variant="extended">
+                        <Box className='esquerda'>
+                        <img src={icone} alt="" className='iconeBussola barra'/>
+                        </Box>
+                    <Box className='direita' >
+                    <Link to="/login" className="botao">
+                            <Fab size="small" variant="extended" className='botao textosroxo'>
                                 Entrar
                             </Fab>
                         </Link>
-                        <Link to="/cadastrousuario" className="botao" >
-                            <Fab size="small" variant="extended">
+                        <Link to="/cadastrousuario" className="botao " >
+                            <Fab size="small" variant="extended" className='textosazuis'>
                                 Cadastrar
                             </Fab>
                         </Link>
+                    </Box>
+                   
                     </Toolbar>
                 </AppBar>
             </Grid>
